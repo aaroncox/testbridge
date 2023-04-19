@@ -1,0 +1,31 @@
+{
+    "name": "evm-bridge",
+    "private": true,
+    "version": "0.0.1",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "check": "svelte-check --tsconfig ./tsconfig.json"
+    },
+    "devDependencies": {
+        "@sveltejs/vite-plugin-svelte": "^1.1.0",
+        "@tsconfig/svelte": "^3.0.0",
+        "svelte": "^3.52.0",
+        "svelte-check": "^2.9.2",
+        "svelte-preprocess": "^4.10.7",
+        "tslib": "^2.4.0",
+        "typescript": "^4.6.4",
+        "vite": "^3.2.3"
+    },
+    "dependencies": {
+        "@walletconnect/ethereum-provider": "^2.7.0",
+        "@wharfkit/session": "^0.3.3",
+        "@wharfkit/transact-plugin-resource-provider": "^0.3.0",
+        "@wharfkit/wallet-plugin-anchor": "^0.3.4",
+        "@wharfkit/wallet-plugin-cloudwallet": "^0.3.2",
+        "@wharfkit/web-ui-renderer": "^0.3.7",
+        "ethers": "^5.6.9"
+    }
+}
